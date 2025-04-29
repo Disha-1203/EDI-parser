@@ -1,0 +1,10 @@
+PO_Number: AMZ_12859
+Order_Date: 20190506
+Quantity: 1
+Unit_Price: 60.90
+
+PO_Number: AMZ_13859
+Order_Date: 20190506
+Quantity: 1
+Unit_Price: 50.90
+
