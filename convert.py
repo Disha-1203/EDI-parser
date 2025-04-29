@@ -141,7 +141,7 @@ def main():
         for i, order in enumerate(orders, 1):
             print(f"{i}. PO Number: {order.get('PO_Number', 'N/A')}, Order Date: {order.get('Order_Date', 'N/A')}")
 
-        order_indices = input(" Enter order indices to process (comma-separated, e.g. 1,3,4): ")
+        order_indices = input(" Enter order indices to process (comma-separated, e.g. 1,2,3,4): ")
         selected_indices = [int(index.strip()) - 1 for index in order_indices.split(',')]
 
         selected_orders = []
